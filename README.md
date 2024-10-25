@@ -16,3 +16,18 @@ This script, weekapss.py, allows users to check MD5 or NTLM hashes against the W
 Ensure Python 3.x is installed, along with the `requests` library:
 ```bash
 pip install requests
+
+## Usage
+
+To use the script, run `check_hash.py` with the following options:
+
+```bash
+python3 check_hash.py [-s HASH] [-l FILE] -o OUTPUT [-t THREADS]
+
+### Parameters
+Argument	Description
+-s, --hash	Check a single hash.
+-l, --list	Check multiple hashes from a file.
+-o, --output	Specify the output file for results (required).
+-t, --threads	Set the number of threads (default: 50).
+Note: The output file is cleared each time before writing new results.
