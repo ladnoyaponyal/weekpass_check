@@ -3,7 +3,7 @@ This script, weekapss.py, allows users to check MD5 or NTLM hashes against the W
 
 # WeakPass Hash Checker
 
-`check_hash.py` is a Python script that leverages the [WeakPass API](https://weakpass.com/) to retrieve clear-text passwords for MD5 and NTLM hashes. It supports checking single hashes or multiple hashes from a file and outputs the results to a specified file. With multithreading enabled, the script ensures high efficiency, especially for large hash lists.
+`weekpass.py` is a Python script that leverages the [WeakPass API](https://weakpass.com/) to retrieve clear-text passwords for MD5 and NTLM hashes. It supports checking single hashes or multiple hashes from a file and outputs the results to a specified file. With multithreading enabled, the script ensures high efficiency, especially for large hash lists.
 
 ## Features
 
