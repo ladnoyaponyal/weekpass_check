@@ -27,9 +27,11 @@ python3 check_hash.py [-s HASH] [-l FILE] -o OUTPUT [-t THREADS]
 ```
 
 ### Parameters
+```
 Argument	Description
 -s, --hash	Check a single hash.
 -l, --list	Check multiple hashes from a file.
 -o, --output	Specify the output file for results (required).
 -t, --threads	Set the number of threads (default: 50).
 Note: The output file is cleared each time before writing new results.
+```
