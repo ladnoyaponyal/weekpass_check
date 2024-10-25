@@ -16,6 +16,7 @@ This script, weekapss.py, allows users to check MD5 or NTLM hashes against the W
 Ensure Python 3.x is installed, along with the `requests` library:
 ```bash
 pip install requests
+```
 
 ## Usage
 
@@ -23,6 +24,7 @@ To use the script, run `check_hash.py` with the following options:
 
 ```bash
 python3 check_hash.py [-s HASH] [-l FILE] -o OUTPUT [-t THREADS]
+```
 
 ### Parameters
 Argument	Description
