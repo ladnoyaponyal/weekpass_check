@@ -23,7 +23,7 @@ pip install requests
 To use the script, run `check_hash.py` with the following options:
 
 ```bash
-python3 check_hash.py [-s HASH] [-l FILE] -o OUTPUT [-t THREADS]
+python3 weekpass.py [-s HASH] [-l FILE] -o OUTPUT [-t THREADS]
 ```
 
 ### Parameters
